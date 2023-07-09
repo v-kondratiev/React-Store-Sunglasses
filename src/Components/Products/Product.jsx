@@ -15,11 +15,7 @@ const Product = () => {
 
     const cards =products.map(product => (
 
-        <div className={style.Card}>
-            <div className={style.favorite} >
-
-            </div>
-
+        <div key={product.id} className={style.Card}>
             <img className={style.cardImage} src={product.img} alt="Sun Glasses"/>
             <h5>{product.title}</h5>
             {/*<h5>{product.description}</h5>*/}
@@ -27,27 +23,22 @@ const Product = () => {
             <div className={style.cardBottom}>
                 <div className={style.cardPrice}>
                     <span>Price: </span>
-                    <b>{product .price}</b>
+                    <b>{product.price}</b>
                 </div>
                 <button className={style.addBtn} >
                     BUY NOW
                 </button>
             </div>
         </div>
-
-
     ))
-
 
 
     return (
         <div className={style.product}>
-            <h1>Product</h1>
+            <h1> All Product</h1>
             <div className={style.items}>
                 {cards}
             </div>
-
-
         </div>
     )
 }
