@@ -11,6 +11,9 @@ import {
     CNavItem, CNavLink
 } from '@coreui/react';
 import {useState} from "react";
+import {cilCart, cilList} from "@coreui/icons";
+import CIcon from "@coreui/icons-react";
+
 
 const NavBar = () => {
     const [visible, setVisible] = useState(false)
@@ -50,15 +53,17 @@ const NavBar = () => {
                         {/*</CForm>*/}
                         <CNavLink href="/cart">
                             <CButton color="primary" className="position-relative">
-
-
-                                <CBadge color="danger" position="bottom-end" shape="rounded-pill">
+                                <CBadge color="danger" position="btop-end" shape="rounded-pill">
                                     99+ <span className="visually-hidden">unread messages</span>
                                 </CBadge>
-
                                 Cart
-
                             </CButton>
+
+
+
+
+
+
                         </CNavLink>
                     </CCollapse>
                 </CContainer>
