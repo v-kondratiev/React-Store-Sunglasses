@@ -6,23 +6,22 @@ import {
     CNavbar,
     CNavbarBrand,
     CNavbarNav,
-
     CNavbarToggler,
     CNavItem, CNavLink
 } from '@coreui/react';
 import {useState} from "react";
-import {cilCart, cilList} from "@coreui/icons";
-import CIcon from "@coreui/icons-react";
-
+import {useSelector} from "react-redux";
 
 const NavBar = () => {
+
     const [visible, setVisible] = useState(false)
+    const cartProducts = useSelector(state => state.cart);
+
     return (
         <div>
-
             <CNavbar expand="lg" colorScheme="light" className="bg-light" placement="sticky-top">
                 <CContainer>
-                    <CNavbarBrand href="#">Redux toolkit</CNavbarBrand>
+                    <CNavbarBrand href="/">Redux toolkit</CNavbarBrand>
                     <CNavbarToggler onClick={() => setVisible(!visible)}/>
                     <CCollapse className="navbar-collapse" visible={visible}>
                         <CContainer>
@@ -54,16 +53,10 @@ const NavBar = () => {
                         <CNavLink href="/cart">
                             <CButton color="primary" className="position-relative">
                                 <CBadge color="danger" position="btop-end" shape="rounded-pill">
-                                    99+ <span className="visually-hidden">unread messages</span>
+                                    {cartProducts.length}
                                 </CBadge>
                                 Cart
                             </CButton>
-
-
-
-
-
-
                         </CNavLink>
                     </CCollapse>
                 </CContainer>

@@ -1,9 +1,13 @@
 import {useState, useEffect} from 'react';
 import * as React from 'react';
 import style from './Product.module.scss'
+import {useDispatch} from "react-redux";
+import {add} from "../../store/cartSlice";
 
 
 const Product = () => {
+
+    const dispatch = useDispatch();
 
     const [products, getProducts] = useState([]);
     useEffect(() => {
@@ -12,6 +16,11 @@ const Product = () => {
             .then(result => getProducts(result))
 
     }, []);
+
+    const addToCart = (product) => {
+        dispatch(add(product))
+
+    }
 
     const cards =products.map(product => (
 
@@ -25,7 +34,7 @@ const Product = () => {
                     <span>Price: </span>
                     <b>{product.price}</b>
                 </div>
-                <button className={style.addBtn} >
+                <button className={style.addBtn} onClick={() =>addToCart(product)} >
                     BUY NOW
                 </button>
             </div>
