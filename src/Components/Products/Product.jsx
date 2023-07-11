@@ -1,28 +1,28 @@
-import {useState, useEffect} from 'react';
-import * as React from 'react';
+import { useEffect} from 'react';
+// import * as React from 'react';
 import style from './Product.module.scss'
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {add} from "../../store/cartSlice";
+import {getProducts} from "../../store/productSlice";
 
 
 const Product = () => {
-
     const dispatch = useDispatch();
+    // const [products, getProducts] = useState([])
+    const {data: products} = useSelector(state => state.products);
 
-    const [products, getProducts] = useState([]);
     useEffect(() => {
-        fetch('https://648d66c52de8d0ea11e7cda6.mockapi.io/Items')
-            .then(data => data.json())
-            .then(result => getProducts(result))
-
+        dispatch(getProducts());
+        // fetch('https://648d66c52de8d0ea11e7cda6.mockapi.io/Items')
+        //     .then(data => data.json())
+        //     .then(result => getProducts(result))
     }, []);
 
     const addToCart = (product) => {
         dispatch(add(product))
-
     }
 
-    const cards =products.map(product => (
+    const cards = products.map(product => (
 
         <div key={product.id} className={style.Card}>
             <img className={style.cardImage} src={product.img} alt="Sun Glasses"/>
@@ -34,13 +34,12 @@ const Product = () => {
                     <span>Price: </span>
                     <b>{product.price}</b>
                 </div>
-                <button className={style.addBtn} onClick={() =>addToCart(product)} >
+                <button className={style.addBtn} onClick={() => addToCart(product)}>
                     BUY NOW
                 </button>
             </div>
         </div>
     ))
-
 
     return (
         <div className={style.product}>
