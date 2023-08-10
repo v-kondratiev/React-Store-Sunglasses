@@ -1,22 +1,32 @@
 import { useEffect} from 'react';
-// import * as React from 'react';
 import style from './Product.module.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {add} from "../../store/cartSlice";
 import {getProducts} from "../../store/productSlice";
-
+import StatusCode from "../../utils/StatusCode";
+import {Spinner} from "react-bootstrap";
 
 const Product = () => {
     const dispatch = useDispatch();
     // const [products, getProducts] = useState([])
-    const {data: products} = useSelector(state => state.products);
+    const {data: products, status} = useSelector(state => state.products);
 
     useEffect(() => {
         dispatch(getProducts());
-        // fetch('https://648d66c52de8d0ea11e7cda6.mockapi.io/Items')
-        //     .then(data => data.json())
-        //     .then(result => getProducts(result))
     }, []);
+
+    if (status === StatusCode.LOADING){
+        return (
+            <div>
+                <Spinner animation="border" role="status">
+                    <span className="visually-hidden">Loading...</span>
+                </Spinner>
+            </div>
+        )
+    }
+    if(status === StatusCode.ERROR) {
+        return <p>Something went wrong! Try again later</p>
+    }
 
     const addToCart = (product) => {
         dispatch(add(product))

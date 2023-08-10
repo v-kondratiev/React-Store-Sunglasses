@@ -1,0 +1,117 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1476px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.box .box a {
+  color: black;
+  position: relative;
+  transition: all 0.2s ease;
+}
+.box .box a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: blue;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.box .box a:hover:after {
+  transform: scaleX(1);
+}
+
+.left_side {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+.logo img {
+  z-index: 11;
+  max-width: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 20px;
+}
+
+.icon_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.mobile_btn {
+  display: none;
+}
+
+.mobile_sign {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .mobile_btn {
+    display: block;
+    right: 10px;
+    top: 29px;
+    padding-right: 30px;
+    cursor: pointer;
+    z-index: 11;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background-color: #f8f8f8;
+    transition: left 1s;
+  }
+  .active {
+    left: 0;
+  }
+  .menu a {
+    font-size: 26px;
+  }
+  .mobile_signout {
+    display: none;
+  }
+  .mobile_sign {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */

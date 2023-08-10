@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style/Base.css'
+import './style/reset.css'
 import './App.css';
 import Product from "./Components/Products/Product";
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";

@@ -3,10 +3,6 @@ import {useDispatch, useSelector} from "react-redux";
 import style from "../Products/Product.module.scss";
 import {remove} from "../../store/cartSlice";
 
-
-
-
-
 const Cart = () => {
     const  products = useSelector(state => state.cart);
     const dispatch = useDispatch();
