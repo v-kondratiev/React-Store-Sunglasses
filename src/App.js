@@ -1,33 +1,25 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './style/Base.css'
 import './style/reset.css'
-import './App.css';
 import Product from "./Components/Products/Product";
-import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";
-import Dashboard from "./Components/Dashboard/Dashboard";
+import {Route, Routes} from "react-router-dom";
+import Home from "./Components/Home/Home";
 import Cart from "./Components/Cart/Cart";
-import RootLayout from "./Components/RootLayout/RootLayout";
-
-
-
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
-
-    const router = createBrowserRouter(createRoutesFromElements(
-
-        <Route path="/" element = {<RootLayout/>}>
-            <Route index element={<Dashboard/>}/>
-            <Route path="/cart" element={<Cart/>}/>
-            <Route path="/Items" element={<Product/>}/>
-        </Route>
-
-    ))
-
     return (
         <div className="App">
-            <RouterProvider router={router}/>
+            <Header/>
+            <main>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/Items" element={<Product/>}/>
+                    <Route path="/cart" element={<Cart/>}/>
+                </Routes>
+            </main>
+            <Footer/>
         </div>
     );
 }
-
 export default App;

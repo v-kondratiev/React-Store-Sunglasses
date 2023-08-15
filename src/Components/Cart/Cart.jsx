@@ -10,7 +10,7 @@ const Cart = () => {
         dispatch(remove(id));
     }
 
-    const cards =products.map(product => (
+    const cards = products.map(product => (
 
         <div key={product.id} className={style.Card}>
             <img className={style.cardImage} src={product.img} alt="Sun Glasses"/>
@@ -24,6 +24,9 @@ const Cart = () => {
                 </div>
                 <button className={style.addBtn} onClick={() => removeToCart(product.id)}  >
                     Remove
+                </button>
+                <button className={style.addBtn} >
+                    Buy
                 </button>
             </div>
         </div>

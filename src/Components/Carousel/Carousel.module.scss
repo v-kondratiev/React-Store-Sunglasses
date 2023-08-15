@@ -1,0 +1,104 @@
+//.Carousel {
+//  display: flex;
+//
+//  .cards {
+//    display: flex;
+//
+//  }
+//
+//}
+
+.Product {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+  background: #53a8b6;
+  border-radius: 6px;
+
+  .Product__top {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+
+    min-height: 310px;
+    min-width: 300px;
+    border-radius: 6px;
+    justify-content: space-around;
+  }
+
+  .Product__image > img {
+    max-height: 270px;
+
+  }
+
+}
+
+.Product__description {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: #FFFFFF;
+
+
+}
+
+.add__btn, .favorites__btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  color: #70c05b;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.add__btn:hover, .favorites__btn:hover {
+  border: 1px solid #ff6633;
+  background-color: #ff6633;
+  color: #fff;
+}
+
+.Bestsellers__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+
+}
+
+.add__btn, .favorites__btn {
+  min-height: 50px;
+  padding: 12px 80px;
+  font-size: 16px;
+  color: #70c05b;
+  font-weight: 700;
+  text-align: center;
+  background: #FFFFFF;
+
+
+  &:hover {
+    transition: color 0.2s ease-in;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+}
+
+
+
+
+
+
+
+

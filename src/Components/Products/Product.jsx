@@ -8,7 +8,6 @@ import {Spinner} from "react-bootstrap";
 
 const Product = () => {
     const dispatch = useDispatch();
-    // const [products, getProducts] = useState([])
     const {data: products, status} = useSelector(state => state.products);
 
     useEffect(() => {

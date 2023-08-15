@@ -1,0 +1,35 @@
+.Home {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  .container {
+    max-width: 1080px;
+    margin: auto;
+
+    .info_group {
+      display: flex;
+      position: relative;
+      min-height: 100vh;
+
+      background-position: center;
+      background-size: cover;
+      background-image: url("./../../assets/homepage.png");
+
+    }
+
+    h1 {
+      display: flex;
+      //align-items: center;
+
+    }
+
+  }
+
+
+
+
+
+}
