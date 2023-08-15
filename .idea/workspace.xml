@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9876b0f-18d9-4df7-99ef-c202f0c53ae4" name="Changes" comment="refactoring Carousel">
-      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" afterDir="false" />
+    <list default="true" id="a9876b0f-18d9-4df7-99ef-c202f0c53ae4" name="Changes" comment="refactoring Products">
+      <change afterPath="$PROJECT_DIR$/src/Components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,22 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IT/Projects/practic-react-redux-toolkit/src/Components&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IT/Projects/practic-react-redux-toolkit/src/Components",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT\Projects\practic-react-redux-toolkit\src\Components" />
@@ -108,7 +118,7 @@
       <workItem from="1690988761399" duration="22000" />
       <workItem from="1691416276402" duration="1082000" />
       <workItem from="1691674903930" duration="13965000" />
-      <workItem from="1692000702272" duration="12060000" />
+      <workItem from="1692000702272" duration="23319000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1688212334809</created>
@@ -166,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692096604065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactoring Products">
+      <created>1692103342048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692103342048</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +209,7 @@
     <MESSAGE value="add Carousel" />
     <MESSAGE value="refactoring Header" />
     <MESSAGE value="refactoring Carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring Carousel" />
+    <MESSAGE value="refactoring Products" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring Products" />
   </component>
 </project>

@@ -5,6 +5,7 @@ import {NavLink} from 'react-router-dom';
 import {Badge, IconButton} from "@mui/material";
 import {Search, ShoppingCart} from "@mui/icons-material";
 import {useState} from "react";
+import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 
 const Header = () => {
     const cartProducts = useSelector(state => state.cart);
@@ -14,29 +15,27 @@ const Header = () => {
             <div className={style.wrapper}>
                 <div className={style.box}>
 
-                    {/*<div onClick={()=> setNav(!nav)} className={style.mobile_btn}>*/}
-                    {/*    {nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/>}*/}
-                    {/*</div>*/}
-
-                    <div className={style.left_side}>
-                        <div className={style.logo}>
-                            <NavLink to="/">
-                                <img src={logo} alt="/"/>
-                            </NavLink>
-                        </div>
-
-                        <div className={style.headerInfo}>
-                            <h3>Sun Glasses</h3>
-                            <p>Online Shopping</p>
-                        </div>
+                    <div onClick={()=> setNav(!nav)} className={style.mobile_btn}>
+                        {nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/>}
                     </div>
+                    <NavLink to="/">
+                        <div className={style.left_side}>
+                            <div className={style.logo}>
+                                <img src={logo} alt="/"/>
+                            </div>
 
-                    <ul>
+                            <div className={style.headerInfo}>
+                                <h3>Sun Glasses</h3>
+                                <p>Online Shopping</p>
+                            </div>
+                        </div>
+                    </NavLink>
+                    <ul className={nav ? [style.menu, style.active].join(' ') : [style.menu]}>
                         <li>
                             <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/Items">Product</NavLink>
+                            <NavLink to="/Items">Products</NavLink>
                         </li>
                         <li>
                             <NavLink>About us</NavLink>
@@ -47,17 +46,26 @@ const Header = () => {
                         <li className={style.mobile_sign}>
                             <NavLink>Sign In</NavLink>
                         </li>
+                        <li className={style.mobile_search}>
+                            <IconButton>
+                                    <Search/>
+                            </IconButton>
+                        </li>
                     </ul>
 
                     <div className={style.icon_group}>
-                        <NavLink to="/login">
+
                             <button className={style.mobile_signout} href="">
+                                <NavLink to="/login">
                                 Sign In
+                                </NavLink>
                             </button>
-                        </NavLink>
+
 
                         <IconButton>
-                            <Search/>
+                            <div className={style.search}>
+                                <Search/>
+                            </div>
                         </IconButton>
                         <NavLink to="/cart">
                             <IconButton>

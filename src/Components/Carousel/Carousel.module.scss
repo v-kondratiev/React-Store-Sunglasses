@@ -1,17 +1,16 @@
-//.Carousel {
-//  display: flex;
-//
-//  .cards {
-//    display: flex;
-//
-//  }
-//
-//}
+.Carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .cards {
+    display: flex;
+  }
+}
 
 .Product {
   display: flex;
   align-items: center;
-
   padding: 20px;
   background: #53a8b6;
   border-radius: 6px;
@@ -20,18 +19,15 @@
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
-
     min-height: 310px;
-    min-width: 300px;
+    min-width: 250px;
     border-radius: 6px;
     justify-content: space-around;
   }
 
   .Product__image > img {
     max-height: 270px;
-
   }
-
 }
 
 .Product__description {
@@ -39,8 +35,6 @@
   flex-direction: column;
   padding: 40px;
   color: #FFFFFF;
-
-
 }
 
 .add__btn, .favorites__btn {
