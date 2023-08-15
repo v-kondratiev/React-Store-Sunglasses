@@ -1,10 +1,11 @@
-import { useEffect} from 'react';
+import React, { useEffect} from 'react';
 import style from './Product.module.scss'
 import {useDispatch, useSelector} from "react-redux";
 import {add} from "../../store/cartSlice";
 import {getProducts} from "../../store/productSlice";
 import StatusCode from "../../utils/StatusCode";
 import {Spinner} from "react-bootstrap";
+
 
 const Product = () => {
     const dispatch = useDispatch();
@@ -51,13 +52,10 @@ const Product = () => {
     ))
 
     return (
-        <div className={style.product}>
-            <h1> All Product</h1>
-            <div className={style.items}>
+        <div className={style.Carousel}>
                 {cards}
-            </div>
         </div>
-    )
+    );
 }
 
 export default Product;

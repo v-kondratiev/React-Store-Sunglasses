@@ -1,0 +1,24 @@
+.Home {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.Home .container {
+  width: 1080px;
+  margin: auto;
+}
+.Home .container .info_group {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./../../assets/homepage.png");
+}
+.Home .container h1 {
+  display: flex;
+}
+
+/*# sourceMappingURL=Home.module.css.map */
