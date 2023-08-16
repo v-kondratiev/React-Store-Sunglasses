@@ -52,8 +52,12 @@ const Product = () => {
     ))
 
     return (
-        <div className={style.Carousel}>
+        <div>
+            <h1>ALL PRODUCTS</h1>
+            <div className={style.product}>
                 {cards}
+            </div>
+
         </div>
     );
 }

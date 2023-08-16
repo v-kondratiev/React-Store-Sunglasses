@@ -4,6 +4,7 @@ import style from './Home.module.scss';
 import {NavLink} from "react-router-dom";
 import sunglass from './../../assets/homepage.png'
 import CarouselHome from "../Carousel/Carousel";
+
 const Home = () => {
 
     return (
@@ -13,12 +14,17 @@ const Home = () => {
                 <h1>Welcome </h1>
                 <div >
                     <NavLink  to="/Items">
-                        Shop Sunglasses
+                        <button className={style.info_btn}>
+                            Shop sunglasses
+                        </button>
                     </NavLink>
                 </div>
             </div>
 
+
+
             <div className={style.container}>
+                <div className={style.title}>All Products</div>
                 <CarouselHome/>
             </div>
         </div>

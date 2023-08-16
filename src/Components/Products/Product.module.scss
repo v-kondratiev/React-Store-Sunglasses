@@ -1,20 +1,29 @@
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+
+
+
+}
 
 .product {
   display: flex;
-
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
+  gap: 10px;
 
   .items {
-
     display: flex;
-
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
 
   }
 }
+
 .Card {
   border: 2px solid #F8F8F8;
   padding: 30px;
@@ -25,7 +34,7 @@
 
   &:hover {
     box-shadow: 0 20px 35px rgb(0, 0, 0, 0.08);
-    transform: translateY(-3px) ;
+    transform: translateY(-3px);
   }
 
   .favorite {
@@ -76,11 +85,13 @@
       font-size: 14px;
     }
   }
+
   .plus {
     cursor: pointer;
 
   }
 }
+
 .cart {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,16 @@
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
 .product {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: auto;
+  gap: 10px;
 }
 .product .items {
   display: flex;
@@ -70,4 +79,4 @@
   align-items: center;
 }
 
-/*# sourceMappingURL=Card.module.css.map */
+/*# sourceMappingURL=Product.module.css.map */
