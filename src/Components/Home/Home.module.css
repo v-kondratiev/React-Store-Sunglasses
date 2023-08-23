@@ -43,4 +43,34 @@
   color: white;
 }
 
+@media (max-width: 767px) {
+  .Home .info_group {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+  .Home .info_group h1 {
+    font-size: 50px;
+  }
+  .Home .info_group .info_btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .Home .info_group {
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+  .Home .info_group h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .Home .info_group .info_btn {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+}
+
 /*# sourceMappingURL=Home.module.css.map */

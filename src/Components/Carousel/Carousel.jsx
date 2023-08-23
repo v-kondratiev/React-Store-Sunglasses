@@ -9,24 +9,23 @@ import {add} from "../../store/cartSlice";
 import style from "../Products/Product.module.scss";
 
 
-
 const CarouselHome = () => {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 1500 },
+            breakpoint: {max: 4000, min: 1500},
             items: 5
         },
         desktop: {
-            breakpoint: { max: 1200, min: 900 },
+            breakpoint: {max: 1200, min: 900},
             items: 3
         },
         tablet: {
-            breakpoint: { max: 900, min: 600},
+            breakpoint: {max: 900, min: 600},
             items: 2
         },
         mobile: {
-            breakpoint: { max: 600, min: 0 },
+            breakpoint: {max: 600, min: 0},
             items: 1
         }
     };
@@ -38,7 +37,7 @@ const CarouselHome = () => {
         dispatch(getProducts());
     }, []);
 
-    if (status === StatusCode.LOADING){
+    if (status === StatusCode.LOADING) {
         return (
             <div>
                 <Spinner animation="border" role="status">
@@ -47,7 +46,7 @@ const CarouselHome = () => {
             </div>
         )
     }
-    if(status === StatusCode.ERROR) {
+    if (status === StatusCode.ERROR) {
         return <p>Something went wrong! Try again later</p>
     }
 
@@ -75,17 +74,13 @@ const CarouselHome = () => {
     ))
 
 
-
-
     return (
         <div className={style.Carousel}>
-            <Carousel
-                showDots={true}
-                responsive={responsive}
-                infinite={true}
-            >
+            <Carousel showDots={true}
+                      responsive={responsive}
+                      infinite={true}>
                 {cards}
-            </Carousel>;
+            </Carousel>
         </div>
     );
 };

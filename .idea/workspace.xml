@@ -17,13 +17,10 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
@@ -31,10 +28,6 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Product.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Products/Product.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +67,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IT/Projects/practic-react-redux-toolkit/src/Components",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT/Projects/practic-react-redux-toolkit/src/Components&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IT\Projects\practic-react-redux-toolkit\src\Components" />
@@ -132,6 +125,7 @@
       <workItem from="1691416276402" duration="1082000" />
       <workItem from="1691674903930" duration="13965000" />
       <workItem from="1692000702272" duration="40058000" />
+      <workItem from="1692280307840" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1688212334809</created>

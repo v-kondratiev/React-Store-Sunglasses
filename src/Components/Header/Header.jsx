@@ -38,10 +38,10 @@ const Header = () => {
                             <NavLink to="/Items">Products</NavLink>
                         </li>
                         <li>
-                            <NavLink>About us</NavLink>
+                            <NavLink to="/faqs">FAQS</NavLink>
                         </li>
                         <li>
-                            <NavLink>Contacts</NavLink>
+                            <NavLink to="/contact">Contacts</NavLink>
                         </li>
                         <li className={style.mobile_sign}>
                             <NavLink>Sign In</NavLink>

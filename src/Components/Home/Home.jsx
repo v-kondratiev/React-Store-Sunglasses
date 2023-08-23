@@ -12,7 +12,7 @@ const Home = () => {
             <img src={sunglass} alt=""/>
             <div className={style.info_group}>
                 <h1>Welcome </h1>
-                <div >
+                <div>
                     <NavLink  to="/Items">
                         <button className={style.info_btn}>
                             Shop sunglasses

@@ -1,5 +1,48 @@
 .cart {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+
+  .Card {
+    //width: 1200px;
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid grey;padding: 15px;
+
+      .cardImage {
+        max-width: 200px;
+      }
+
+      .cardBottom {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 0;
+
+        .groupInfo {
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+
+          h5 {
+            font-size: 24px;
+          }
+        }
+
+        .groupBtn {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          b {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
 }
