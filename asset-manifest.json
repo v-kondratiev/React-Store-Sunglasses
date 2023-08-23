@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Store-Sunglasses/static/css/main.92232070.css",
+    "main.js": "/React-Store-Sunglasses/static/js/main.a3305712.js",
+    "static/media/homepage.png": "/React-Store-Sunglasses/static/media/homepage.a260f7a84904a6ba79f1.png",
+    "static/media/logo1.png": "/React-Store-Sunglasses/static/media/logo1.bcdbf9ae32a215108511.png",
+    "static/media/revicons.eot": "/React-Store-Sunglasses/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/React-Store-Sunglasses/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/React-Store-Sunglasses/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/instagram.svg": "/React-Store-Sunglasses/static/media/instagram.97f5274668b50d89e81f4bab184f6dd7.svg",
+    "static/media/Youtube.svg": "/React-Store-Sunglasses/static/media/Youtube.99c3f9c573ff246e72c0820c93465373.svg",
+    "static/media/Twitter.svg": "/React-Store-Sunglasses/static/media/Twitter.e852a8899adb0f7a972947c92cae7ce9.svg",
+    "static/media/Facebook.svg": "/React-Store-Sunglasses/static/media/Facebook.d0a91cc223137b115e8b5df1f256e34d.svg",
+    "static/media/LinkedIn.svg": "/React-Store-Sunglasses/static/media/LinkedIn.d71b6f50c73259316f8c1641ba96f43b.svg",
+    "index.html": "/React-Store-Sunglasses/index.html",
+    "main.92232070.css.map": "/React-Store-Sunglasses/static/css/main.92232070.css.map",
+    "main.a3305712.js.map": "/React-Store-Sunglasses/static/js/main.a3305712.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92232070.css",
+    "static/js/main.a3305712.js"
+  ]
+}
