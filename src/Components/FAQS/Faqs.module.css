@@ -1,0 +1,23 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.info {
+  padding: 0 10px;
+  margin-top: 40px;
+}
+.info .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.info p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.accordion {
+  margin: 50px 10px;
+}
+
+/*# sourceMappingURL=Faqs.module.css.map */
