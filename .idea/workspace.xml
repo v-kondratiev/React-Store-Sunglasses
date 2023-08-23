@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9876b0f-18d9-4df7-99ef-c202f0c53ae4" name="Changes" comment="refactoring Products">
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FAQS/Faqs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FAQS/Faqs.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button/Button.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button/Button.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Carousel/Carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cart/Cart.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.module.scss" afterDir="false" />
-    </list>
+    <list default="true" id="a9876b0f-18d9-4df7-99ef-c202f0c53ae4" name="Changes" comment="refactoring Home" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +101,7 @@
       <workItem from="1691416276402" duration="1082000" />
       <workItem from="1691674903930" duration="13965000" />
       <workItem from="1692000702272" duration="40058000" />
-      <workItem from="1692280307840" duration="4625000" />
+      <workItem from="1692280307840" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1688212334809</created>
@@ -197,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692116731641</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactoring Home">
+      <created>1692809045672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692809045672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +207,7 @@
     <MESSAGE value="refactoring Carousel" />
     <MESSAGE value="refactoring Header" />
     <MESSAGE value="refactoring Products" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring Products" />
+    <MESSAGE value="refactoring Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring Home" />
   </component>
 </project>

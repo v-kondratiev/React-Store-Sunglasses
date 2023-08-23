@@ -25,7 +25,7 @@ const Header = () => {
                             </div>
 
                             <div className={style.headerInfo}>
-                                <h3>Sun Glasses</h3>
+                                <h3>Sunglasses</h3>
                                 <p>Online Shopping</p>
                             </div>
                         </div>
